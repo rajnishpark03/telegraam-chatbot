@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import requests
 import json
 
-TELEGRAM_BOT_TOKEN = "7349787531:AAELBLmwkRnqlmfgQoMH81rVLnihKLo31B0"
+TELEGRAM_BOT_TOKEN = "#your telegram chatbot api"
 TOGETHER_API_KEY = "1200b5dd271649ae98e189601a8485af8e5092b1f456fd240c6e1e7c09e86735"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
